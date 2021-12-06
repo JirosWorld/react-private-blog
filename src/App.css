@@ -37,6 +37,55 @@
   }
 }
 
+.container  {
+  margin: 1em;
+  max-width: 900px;
+}
+nav {
+  background-color: darkorange;
+  border-radius: 10px;
+}
+nav ul {
+  padding: 0.3em;
+  margin: 0.5em;
+  list-style-type: none;
+  /*   properties voor element als item */
+  flex-basis: 300px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  /*   properties voor element als container */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav a {
+  color: #FFF;
+  font-weight: bold;
+}
 .active-link {
-  background-color: orange;
+  background-color: lightpink;
+}
+.overview li {
+  margin: 5px 5px 10px 0;
+}
+.overview a {
+  color: indianred;
+}
+.postdate {
+  font-size: 0.9em;
+  font-style: italic;
+  color: darkorange;
+}
+.postsnumber {
+  font-weight: bold;
+  font-style: italic;
+}
+hr {
+  margin: 1em 0;
+}
+h3 {
+  margin: 5px 5px 20px 5px;
+}
+.postcontent {
+  max-width: 600px;
 }
